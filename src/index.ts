@@ -46,7 +46,7 @@ app.on('ready', () => {
   http.createServer((req, res) => {
     mainWindow.webContents.send("http", req.url);
     console.log(`${req.method} ${req.url}`);
-    fs.appendFileSync("./request_log.txt", `${req.method} ${req.url}\n`);
+    // fs.appendFileSync("./request_log.txt", `${req.method} ${req.url}\n`);
     res.writeHead(200, {'Content-Type': 'text/plain'});
     res.end("OK");
   }).listen(20304);

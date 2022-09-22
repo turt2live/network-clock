@@ -1,6 +1,6 @@
 {
-  "name": "led-scoreboard",
-  "productName": "led-scoreboard",
+  "name": "network-clock",
+  "productName": "network-clock",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": ".webpack/main",
@@ -13,8 +13,8 @@
   },
   "keywords": [],
   "author": {
-    "name": "ENTS Directors",
-    "email": "directors@ents.ca"
+    "name": "Travis Ralston",
+    "email": "travis@t2bot.io"
   },
   "license": "Apache-2.0",
   "config": {

@@ -11,7 +11,7 @@ You will need Node 18 or higher to run this.
 git clone https://github.com/turt2live/network-clock.git
 cd network-clock
 npm install
-npm run start:dev
+npm run start
 ```
 
 Then access the clock over the network. Note that the connection is NOT secured, so anyone on the network can change the time.
